@@ -3,11 +3,10 @@
 @section('main-content')
     <main class="main-content">
         <div class="container">
-            <div class="d-flex">
-
+            <div class="row text-center">
                 @forelse($comics as $comic)
-                    <div class="comics-card">
-                        <a href="{{ route('comics.show', $comic->id) }}">
+                    <div class="col-2 card text-dark gy-3">
+                        <a href="{{ route('comics.show', $comic) }}">
                             <img src="{{ $comic->thumb }}" alt="{{ $comic->title }}" class="comics">
                         </a>
                         <strong>
