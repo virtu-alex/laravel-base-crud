@@ -5,7 +5,7 @@
         <form action="{{ route('comics.update', $comic->id) }}" method="POST">
             @csrf
             @method('PUT')
-            <div class="row g-2 bg-dark p-5">
+            <div class="row my-3 bg-create g-2 bg-dark p-5">
                 <div class="col">
                     <input type="text" class="form-control" placeholder="Title" name="title" value="{{ $comic->title }}">
                 </div>

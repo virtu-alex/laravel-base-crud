@@ -126,6 +126,23 @@ footer .dc-logo {
   background-repeat: no-repeat;
   background-position-y: center;
 }
+.bg-create{
+  color: white;
+  background-image: url("../images/dc-logo-bg.png");
+  background-position-y: center;
+  animation: ground 1s linear;
+}
+
+@keyframes ground{
+0%{
+  transform: scale(10%);
+  opacity: 10%;
+}
+100%{
+  transform: scale(100%);
+  opacity: 80%;
+}
+}
 footer #bottom-footer {
   background-color: #343434;
   height: 90px;

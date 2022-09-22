@@ -2,10 +2,10 @@
 
 
 @section('main-content')
-<div class="container">
+<div class="container bg-create bg-dark">
     <form action="{{route('comics.store')}}" method="POST">
         @csrf
-        <div class="row g-2 bg-dark p-5">
+        <div class="row my-4 g-2 p-5">
             <div class="col">
                 <input type="text" class="form-control" placeholder="Title" name="title">
             </div>
@@ -29,7 +29,7 @@
             </div>
             
             <div class="col-12 text-center pt-3">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-warning border">Submit</button>
             </div>
         </div>
     </form>
