@@ -31,7 +31,6 @@
             <div class="col-12 text-center pt-3">
                 <button type="submit" class="btn btn-primary">Submit</button>
             </div>
-
         </div>
     </form>
 </div>
